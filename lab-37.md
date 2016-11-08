@@ -18,8 +18,9 @@
  * google id
 * upon successful authentication
  * if the user allreay exits in the database
-   * generate a token
+   * generate a user token using
  * if the user does not yet exits in the database
    * create a new user with the google info
-    * generate a token
+    * genarete a token timestamp that dates the time the token was recieved
+     * generate a user token
  * redirect your app to the login page of your app and pass the the token back in a query string
